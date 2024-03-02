@@ -2,5 +2,5 @@
 
 
 
-let pname : boolean = 2+2
-console.log(pname)
+let pName : boolean = 2+2
+console.log(pName)
