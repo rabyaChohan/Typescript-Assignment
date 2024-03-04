@@ -4,6 +4,6 @@
 
 
 
-let personQuote : string = "The future belongs to those who believe in the beauty of their dreams."
-let author : String = "Eleanor Roosevelt"
-console.log(personQuote, author)
+let personQuote : string = '"The future belongs to those who believe in the beauty of their dreams."'
+let author : String = "Eleanor Roosevelt once said,"
+console.log(author , personQuote)
