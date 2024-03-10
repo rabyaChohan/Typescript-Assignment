@@ -10,4 +10,4 @@ for (let i = 0; i < userName.length; i++) {
     titlecaseName += userName[i].charAt(0).toUpperCase() + userName[i].slice(1).toLowerCase() + "";
 }
 ;
-console.log(titlecaseName);
+console.log("TitleCase", titlecaseName);
