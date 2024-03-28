@@ -6,4 +6,4 @@
 
 let personQuote : string = '"The future belongs to those who believe in the beauty of their dreams."'
 let author : String = "Eleanor Roosevelt once said,"
-console.log(author , personQuote)
+console.log(author + personQuote)
