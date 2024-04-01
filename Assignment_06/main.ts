@@ -10,5 +10,9 @@ let personName : string ="\t \nRabya Chohan\n \t"
 // With whitespace
 console.log ("With WhiteSpace:", personName)
 // WithOut whitespace
-let withoutwhiteSpaces:string = personName.trim()
-console.log ("WithOut WhiteSpace:", withoutwhiteSpaces)
+// let withoutwhiteSpaces:string = personName.trim()
+// console.log ("WithOut WhiteSpace:", withoutwhiteSpaces)
+
+console.log ("WithOut WhiteSpace:", personName.trim())
+
+
