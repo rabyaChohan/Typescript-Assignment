@@ -12,6 +12,7 @@ import inquirer from "inquirer";
 
 
 
+
 let guestName : string [] = ["Raby", "Muneeba" , "Kauser" , "Nadia" , "Farah"]
 
 guestName.forEach(guest =>{
@@ -33,6 +34,4 @@ console.log(guestName)
 guestName.forEach(guest =>{
     console.log(`Dear ${guest} , You Are Cordially Invited to Dinner`);
 })
-
-
 

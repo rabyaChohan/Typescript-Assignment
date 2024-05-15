@@ -5,5 +5,5 @@
 let transportation: string[] =["Motorcycle", "Car" , "Cycle" , "Train" , "Aeroplane" ,"Bus" , "Ships"]
 
 for(let i = 0; i<transportation.length; i++ ){
-    console.log("I would like to travel through a bus" + transportation[i])
+    console.log("I would like to travel through a " + transportation[i])
 }
