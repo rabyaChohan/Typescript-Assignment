@@ -8,7 +8,6 @@
 // • Print a second set of invitation messages, one for each person who is still in your list.
  import chalk from "chalk";
 
-
 let guestName : string [] = ["Raby", "Muneeba" , "Kauser" , "Nadia" , "Farah"]
 
 guestName.forEach(guest =>{
@@ -23,10 +22,7 @@ console.log(chalk.blue(`Unable To Come ${unabletoCome}`))
 guestName.push('Ayan','Arif')
 console.log(guestName)
 
-
 // • Print a second set of invitation messages, one for each person who is still in your list.
-
-
 guestName.forEach(guest =>{
     console.log(`Dear ${guest} , You Are Cordially Invited to Dinner`);
 })
